@@ -1,0 +1,68 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important; 
+    box-sizing: border-box !important;
+}
+
+.main  {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content: center;
+ 
+}
+.form {
+    padding: 20px !important;
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+}
+.text{
+    width: 100%; 
+    text-align: center;
+}
+.form input[type = file]{
+    position: relative;
+    height: 80px;
+    width: 100px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.form input[type = file]:after {
+    content:  " ";
+    display: flex; 
+    position: absolute;
+    left: 0;
+    top: 0; 
+    background-color: grey;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+    background-image: url('./cloud-upload.svg');
+    background-size:80% , 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.form input[type = file]:hover {
+    box-shadow: 0 0 40px 10px white;
+}
+figure{
+    width: 50%;
+    height: 250px;
+    border: 2px dotted black;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+figure>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
