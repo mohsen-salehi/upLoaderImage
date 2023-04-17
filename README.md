@@ -1,3 +1,16 @@
+
+This package is for uploading photos for React that you can use
+
+
+
+به زبان فارسی 
+
+این پکیچ برای آپلود عکس می باشد برای ری اکت که میتوانید آن را استفاده کنید 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
